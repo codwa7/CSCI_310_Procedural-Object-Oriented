@@ -1,0 +1,37 @@
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 16:07:46) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+======== RESTART: C:\Users\skyler\Desktop\Project3_SelfridgeSkyler.py ========
+>>> hlbackwards([1,[2,3],[[4,5,[6],7],8,9]])
+[[[4, 5, [6], 7], 8, 9], [2, 3], 1]
+>>> llbackwards([1,[2,3],[[4,5,[6],7],8,9]])
+[[9, 8, [7, [6], 5, 4]], [3, 2], 1]
+>>> palindrome([1,2,3,[2],1])
+[1, 2, 3, [2], 1, [2], 3, 2, 1]
+>>> palindrome([1,[2,3,[4]],[[4],3,2],1])
+[1, [2, 3, [4]], [[4], 3, 2], 1]
+>>> permutations([1,2,3])
+[[(1, 2, 3)], [(1, 3, 2)], [(2, 1, 3)], [(2, 3, 1)], [(3, 1, 2)], [(3, 2, 1)]]
+>>> ionah(3)
+Move disk from peg '1' to peg '3'
+Move disk from peg '1' to peg '2'
+Move disk from peg '3' to peg '2'
+Move disk from peg '1' to peg '3'
+Move disk from peg '2' to peg '1'
+Move disk from peg '2' to peg '3'
+Move disk from peg '1' to peg '3'
+>>> sequence(7)
+[0, 1, 2, 5, 12, 29, 70]
+>>> argue(['you','are','a','stupid','computer'])
+['i', 'am', 'not', 'a', 'stupid', 'computer']
+>>> argue(['you','are'])
+['i', 'am', 'not']
+>>> argue(['are'])
+['am', 'not']
+>>> argue(['I', 'am', 'a', 'smart', 'human'])
+['I', 'are', 'not', 'a', 'smart', 'human']
+>>> argue(['your', 'mother', 'does', 'wear', 'army', 'boots'])
+['my', 'mother', 'does', 'not', 'wear', 'army', 'boots']
+>>> argue(['you', 'are', 'argumentative'])
+['i', 'am', 'not', 'argumentative']
+>>> 
